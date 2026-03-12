@@ -15,7 +15,7 @@ This repository contains code for processing computational fluid dynamics (CFD) 
 
 - The outputs from this script that were submitted for the additional 20 simulations are stored in runs_active.csv.
  
--  
+- rr_gbm_rf.py was used to develop ridge regression, GBM, and random forest models on the original data set of 104 points, and test them on the 20 point sample data set generated in runs_active. This code also has scripts to assess the performance of each model (MAE, R^2). This script also contains code to plot the results for Figures 1-3 of the report. 
 
 
 
